@@ -1,8 +1,28 @@
 aid: mottu
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mottu.png
 name: Mottu
-description: 'Mottu is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Mottu is the leading motorcycle-rental ecosystem in Latin America, founded in 2020 in
+  Sao Paulo, Brazil by Rubens Zanelatto. It rents motorcycles to gig and delivery couriers
+  who lack access to traditional credit, bundling insurance, maintenance, 24-hour support
+  and financial services (Mottu Pay) so workers can earn income through food delivery,
+  e-commerce and last-mile logistics. Mottu has verticalized the value chain, running its
+  own assembly line, parts and service network, and fleet-management software, and offers
+  white-labeled last-mile delivery (Mottu Entregas) to more than 1,000 retailers across
+  100+ cities in Brazil and Mexico. Backed by QED Investors, Mottu has raised over US$150M.
+  It operates as a consumer and B2B mobility/fintech app and does not publish a public
+  developer API.
 url: https://raw.githubusercontent.com/api-evangelist/mottu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Mobility
+- Motorcycle Rental
+- Last-Mile Delivery
+- Logistics
+- Brazil
+- Latin America
+- Gig Economy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,22 @@ maintainers:
 common:
 - type: Website
   url: https://mottu.com.br/
+- type: Support
+  url: https://ajuda.mottu.cloud/pt-BR/
+- type: PrivacyPolicy
+  url: https://mottu.com.br/politica-de-privacidade/
+- type: TermsOfService
+  url: https://mottu.com.br/termos-e-contratos-mottu
+- type: SignUp
+  url: https://apps.apple.com/br/app/mottu-motos/id6504585254
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mottuapp
+- type: DomainSecurity
+  url: security/mottu-domain-security.yml
+- type: LLMsTxt
+  url: llms/mottu-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
